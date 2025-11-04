@@ -23,8 +23,8 @@
 
 ## Run on Docker
 # 1. แตกไฟล์โปรเจกต์
-unzip ipc_chat_dockerized.zip
-cd ipc_chat_dockerized
+unzip ipc_chat_dockerized.zip  
+cd ipc_chat_dockerized  
 
 # 2. Build image
 docker build -t ipc-chat:latest .
@@ -33,13 +33,13 @@ docker build -t ipc-chat:latest .
 docker run --rm -it --name ipc-chat ipc-chat:latest /bin/bash
 
 # 4. ภายใน container พิมพ์
-chmod +x demo_tmux.sh (ให้สิทธิ์รันคพสั่ง )
-./demo_tmux.sh
+chmod +x demo_tmux.sh (ให้สิทธิ์รันคพสั่ง )  
+./demo_tmux.sh  
 
 # ความหมายของแต่ละช่อง
-ขวาบน => Client 1
-ขวาล่าง => Client 2
-ซ้าย => Server
+ขวาบน => Client 1  
+ขวาล่าง => Client 2  
+ซ้าย => Server  
 
 ## Main Commands 
 JOIN < room >  
