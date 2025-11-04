@@ -10,16 +10,16 @@
 - การดูรายชื่อสมาชิกในห้อง (WHO)
 
 ## Project Structure
-├── Dockerfile
-├── docker-compose.yml
-├── Makefile
-├── server.cpp
-├── router.cpp
-├── broadcaster.cpp
-├── client.cpp
-├── registry.hpp
-├── demo_tmux.sh
-└── spawn_clients.sh
+├── Dockerfile  
+├── docker-compose.yml  
+├── Makefile  
+├── server.cpp  
+├── router.cpp  
+├── broadcaster.cpp  
+├── client.cpp  
+├── registry.hpp  
+├── demo_tmux.sh  
+└── spawn_clients.sh  
 
 ## Run on Docker
 # 1. แตกไฟล์โปรเจกต์
