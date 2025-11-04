@@ -18,8 +18,7 @@
 ├── broadcaster.cpp  
 ├── client.cpp  
 ├── registry.hpp  
-├── demo_tmux.sh  
-└── spawn_clients.sh  
+└── demo_tmux.sh  
 
 ## Run on Docker
 # 1. แตกไฟล์โปรเจกต์
