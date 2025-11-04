@@ -42,11 +42,11 @@ chmod +x demo_tmux.sh (ให้สิทธิ์รันคพสั่ง )
 ซ้าย => Server
 
 ## Main Commands 
-# JOIN <room>
-เข้าห้องแชต JOIN <room>
-# SAY <room> <message>
-ส่งข้อความในห้อง SAY <room> <message>
-# WHO <room>
-ดูรายชื่อในห้อง WHO <room>
-# DM <client_id> <message>
-ส่งข้อความส่วนตัว DM <client_id> <message>
+JOIN < room >
+เข้าห้องแชต
+SAY < room > < message >
+ส่งข้อความในห้อง
+WHO < room >
+ดูรายชื่อในห้อง
+DM < client_id > < message >
+ส่งข้อความส่วนตัว
